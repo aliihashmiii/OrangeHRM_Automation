@@ -30,9 +30,4 @@ This test checks what happens when someone tries to log in with the wrong userna
 - An error message like “Invalid credentials” should appear
 - A screenshot should be saved for record-keeping or debugging
 
-### How to run the test:
-Make sure you're inside the project folder, then run this command in PowerShell:
-
-```bash
-python test_invalid_login.py
 
