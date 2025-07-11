@@ -7,11 +7,6 @@ This project uses Selenium and Python to test the login functionality of the Ora
 - Selenium
 - ChromeDriver
 
-## How to Run
-1. Clone the repo
-2. Run: `pip install -r requirements.txt`
-3. Execute the test: `python test_login.py`
-
 
 
 ## Invalid Login Test
@@ -30,11 +25,6 @@ This test checks what happens when someone tries to log in with the wrong userna
 - An error message like “Invalid credentials” should appear
 - A screenshot should be saved for record-keeping or debugging
 
-### How to run the test:
-Make sure you're inside the project folder, then run this command in PowerShell:
-
-```bash
-python test_invalid_login.py
 
 # OrangeHRM Selenium Login Test
 
