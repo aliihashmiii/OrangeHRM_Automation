@@ -36,3 +36,21 @@ Make sure you're inside the project folder, then run this command in PowerShell:
 ```bash
 python test_invalid_login.py
 
+# OrangeHRM Selenium Login Test
+
+This is a simple Selenium project written in Python to test the login functionality of the OrangeHRM demo site using multiple sets of credentials from a CSV file.
+
+## What It Does
+- Opens the OrangeHRM login page
+- Reads usernames and passwords from `login_data.csv`
+- Tries to log in with each one
+- Prints whether login was successful or failed
+- Saves screenshots for any failed login attempts
+
+## How to Run
+Make sure all files are in the same directory. Then run:
+
+```bash
+python test_login_with_csv.py
+
+
